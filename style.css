@@ -1,0 +1,116 @@
+body{
+    /* background-color: green; */
+    background-color: #fff;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* Header */
+header {
+    /* border: 2px solid red; */
+    border-bottom: 2px solid #F3F2F2;
+    padding: 0.5rem 4rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+nav ul .mid-nav li {
+    margin-right: 1.5rem;
+}
+nav ul .mid-nav {
+    display: flex;
+}
+nav ul .end-nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+nav ul .end-nav li{
+    margin-right: 1.5rem;
+}
+nav ul .end-nav li button{
+    /* padding: 15px 20px 15px 20px; */
+    padding: 15px 45px ;
+    border-radius: 50px;
+    background-color: #000;
+    color: floralwhite;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.image-container img {
+    width: 50%;
+    max-width: 70px;
+    border-radius: 10px;
+
+/* Apply some basic styling to center elements */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container to hold the image and the link */
+.center-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between image and link */
+}
+
+/* Styling the image */
+.image {
+    width: 150px; /* Adjust image size as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: round the corners of the image */
+}
+
+/* Styling the link */
+.link {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+
+/* General image styling */
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add border and padding to the selected images */
+.image-border {
+    border: 5px solid #4CAF50; /* Green border */
+    padding: 10px; /* Padding inside the border */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+/* Centering the images */
+.image-container, .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.link:hover {
+    color: #007BFF; /* Add a hover effect to the link */
+}
